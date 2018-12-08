@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+    background: #777;
+}
+
+header, #nav {
+    margin: 5px 5px 10px 100px;
+    width: 960px;
+    height: 100px;
+    padding: 30px 70px 0px 0px;
+    color: #777;
+    background: #ebebeb;
+    position: relative;
+}
+
+.container {
+    width: 495px;
+    padding: 50px;
+    position: fixed;
+   
+
+#article {
+        width: 95%;
+        height: 200px;
+        margin: 20px 70px 80px 60px;
+        padding: 20px 10px 10px 0px; 
+        background: #777;
+        color: #ebebeb;
+        position: absolute;
+   
+    }
+    
+#h {
+    
+        background: #ebebeb;
+        color: #777;
+        width: 440px;
+        height: 50px;
+        margin: 70px 5px 30px 75px;
+        line-height: 50px;
+        position: absolute;
+    }
+    
+#p {
+    background: #ebebeb;
+    color: #777;
+    width: 440px;
+    height: 50px;
+    margin: 130px 5px 30px 75px;
+    line-height: 50px;
+    position: absolute;
+    
+    }
+
+#section {
+    background-color: #ebebeb;
+    margin: -50px 10px 70px 50px;
+    padding: 10px 10px 50px 0px;
+    line-height: 70px;
+    float: left;
+    height: 279px;
+    width: 495px;
+    box-sizing: border-box;
+    
+
+}
+
+
+#aside {
+    margin: -50px 220px 0px 575px;
+    padding: 10px 20px 50px 5px;
+    background-color: #ebebeb;
+    color: #777;
+    width: 435px;
+    height: 280px;
+    line-height: 70px;
+    float: right;
+    position: absolute;
+
+}
+
+.wrapper {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    border-style: hidden;
+
+}
+
+footer {
+    margin: 315px 20px 20px 100px;
+    content: normal; 
+    padding: 40px 90px 20px 10px;
+    width: 960px;
+    height: 100px;
+    color: #777;
+    background: #ebebeb;
+    position: relative;
+    
